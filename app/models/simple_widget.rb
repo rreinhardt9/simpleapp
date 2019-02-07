@@ -1,0 +1,2 @@
+class SimpleWidget < ApplicationRecord
+end

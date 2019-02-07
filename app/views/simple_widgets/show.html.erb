@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @simple_widget.name %>
+</p>
+
+<p>
+  <strong>Count:</strong>
+  <%= @simple_widget.count %>
+</p>
+
+<p>
+  <strong>Comments:</strong>
+  <%= @simple_widget.comments %>
+</p>
+
+<%= link_to 'Edit', edit_simple_widget_path(@simple_widget) %> |
+<%= link_to 'Back', simple_widgets_path %>
