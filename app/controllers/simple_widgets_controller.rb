@@ -14,6 +14,7 @@ class SimpleWidgetsController < ApplicationController
 
   # GET /simple_widgets/new
   def new
+    raise "Oh noes! Something be broke!"
     @simple_widget = SimpleWidget.new
   end
 
